@@ -4,8 +4,8 @@ const config: DataSourceOptions = {
     type: 'postgres',
     host: 'localhost',
     port: 5432,
-    username: 'mediaumclone',
-    password: 'postgres',
+    username: 'mediumclone',
+    password: '123',
     entities: [__dirname + '/**/*.entity{.ts,.js}'],
     synchronize: true,
 };

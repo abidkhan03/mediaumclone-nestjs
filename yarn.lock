@@ -5145,7 +5145,7 @@ __metadata:
     ts-loader: ^9.2.3
     ts-node: ^10.0.0
     tsconfig-paths: 4.2.0
-    typeorm: ^0.3.15
+    typeorm: latest
     typescript: ^4.7.4
   languageName: unknown
   linkType: soft
@@ -7287,7 +7287,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typeorm@npm:^0.3.15":
+"typeorm@npm:latest":
   version: 0.3.15
   resolution: "typeorm@npm:0.3.15"
   dependencies:

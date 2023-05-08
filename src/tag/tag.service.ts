@@ -12,4 +12,8 @@ export class TagService {
     async findAll(): Promise<TagEntity[]> {
         return await this.tagRepository.find();
     }
+
+    async count(): Promise<number> {
+        return await this.tagRepository.count();
+    }
 }

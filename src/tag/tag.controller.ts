@@ -11,4 +11,11 @@ export class TagController {
             tags: tags.map((tag) => ({ id: tag.id, name: tag.name })),
         };
     }
+    @Get('/count')
+    async count(): Promise<{count: number}> {
+        const count = await this.tagService.count();
+        return {
+            count,
+        };
+    }
 }
